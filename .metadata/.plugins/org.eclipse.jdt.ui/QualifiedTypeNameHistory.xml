@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.parse.ParseException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.phantomjs.PhantomJSDriverService"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.WebClient"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.BrowserVersion"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.SilentCssErrorHandler"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.ThreadedRefreshHandler"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.html.HtmlPage"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.html.HtmlElement"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.html.HtmlDivision"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.html.HtmlSpan"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.html.HtmlAnchor"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.TimeoutException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.StaleElementReferenceException"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+</qualifiedTypeNameHistroy>

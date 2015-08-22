@@ -1,0 +1,5 @@
+package testNG.Parallel;
+
+public class Test01 {
+
+}

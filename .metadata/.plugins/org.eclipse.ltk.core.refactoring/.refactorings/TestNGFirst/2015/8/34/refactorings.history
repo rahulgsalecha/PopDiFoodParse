@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;EighthTestNGFile.java&apos; to &apos;Copy of Copy of WordCount_Maven/src/(default package)&apos;&#x0A;- Original project: &apos;TestNGFirst&apos;&#x0A;- Destination element: &apos;Copy of Copy of WordCount_Maven/src/(default package)&apos;&#x0A;- Original element: &apos;firstestngpackage.EighthTestNGFile.java&apos;" description="Copy compilation unit" destination="=Copy of Copy of WordCount_Maven/src&lt;" element1="/src&lt;firstestngpackage{EighthTestNGFile.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1439768509178" units="1" version="1.0"/>
+</session>

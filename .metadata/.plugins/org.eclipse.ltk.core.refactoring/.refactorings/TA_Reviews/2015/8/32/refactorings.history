@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TA_Reviews/src/site/tripadvisor_parse&apos; to &apos;tripadvisor_parse.java&apos;" description="Rename resource &apos;tripadvisor_parse&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/site/tripadvisor_parse" name="tripadvisor_parse.java" stamp="1439075155321" updateReferences="true"/>
+</session>

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Parallel_test_runs">
+              <span class="suite-name border-failed">Parallel test runs</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Parallel_test_runs">
+                    <span>testFiles.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Parallel_test_runs">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Parallel_test_runs">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Parallel_test_runs">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Parallel_test_runs">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Parallel_test_runs">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Parallel_test_runs">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="hide-methods failed suite-Parallel_test_runs"> (hide)</a> <!-- hide-methods failed suite-Parallel_test_runs -->
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="show-methods failed suite-Parallel_test_runs"> (show)</a> <!-- show-methods failed suite-Parallel_test_runs -->
+                    </span>
+                    <div class="method-list-content failed suite-Parallel_test_runs">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.FirstTestNGFile" hash-for-method="webDriver(firefox, 38, OSX 10.8)">webDriver(firefox, 38, OSX 10.8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.FirstTestNGFile" hash-for-method="webDriver(firefox, 38, LINUX)">webDriver(firefox, 38, LINUX)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.SecondTestNGFile" hash-for-method="webDriver(firefox, 38, OSX 10.8)">webDriver(firefox, 38, OSX 10.8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Parallel_test_runs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="hide-methods passed suite-Parallel_test_runs"> (hide)</a> <!-- hide-methods passed suite-Parallel_test_runs -->
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="show-methods passed suite-Parallel_test_runs"> (show)</a> <!-- show-methods passed suite-Parallel_test_runs -->
+                    </span>
+                    <div class="method-list-content passed suite-Parallel_test_runs">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.SecondTestNGFile" hash-for-method="webDriver(firefox, 38, LINUX)">webDriver(firefox, 38, LINUX)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parallel_test_runs -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-My_Test_Suite" class="panel My_Test_Suite">
+        </div> <!-- panel My_Test_Suite -->
+        <div panel-name="suite-Parallel_test_runs" class="panel Parallel_test_runs">
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.SecondTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="webDriver(firefox, 38, OSX 10.8)">
+                  </a> <!-- webDriver(firefox, 38, OSX 10.8) -->
+                  <span class="method-name">webDriver</span>
+                  <span class="parameters">(firefox, 38, OSX 10.8)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;title&gt;Notification: Gateway Timeout&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!--
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+p {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    top: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+td {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    top: 0px;
+}
+.code {
+    font-family: courier;
+    font-size: 12px;
+    top: 0px;
+}
+h1 {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;h1&gt;This Page Cannot Be Displayed&lt;/h1&gt;
+&lt;hr&gt;
+
+&lt;p&gt;
+The system cannot communicate with the external server (&amp;nbsp;ondemand.saucelabs.com&amp;nbsp;).
+The Internet server may be busy, may be permanently down, or may be
+unreachable because of network problems.
+&lt;/p&gt;
+
+&lt;p&gt;
+Please check the spelling of the Internet address entered.
+If it is correct, try this request later.
+&lt;/p&gt;
+
+
+
+&lt;p&gt;
+If you have questions, or feel this is an error, please contact
+your organization&apos;s network administrator 
+and provide the codes shown below.
+&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;table&gt;
+  &lt;tr valign=&quot;top&quot;&gt;
+    &lt;td valign=&quot;top&quot; width=&quot;10%&quot;&gt;Notification&amp;nbsp;codes:&amp;nbsp;&lt;/td&gt;
+    &lt;td valign=&quot;top&quot; class=&quot;code&quot; width=&quot;90%&quot;&gt;(1, GATEWAY_TIMEOUT, ondemand.saucelabs.com)&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+Command duration or timeout: 120.59 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:16:47&apos;
+System info: host: &apos;RSALECHA-M-6054&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=38.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=e7a9f197b9dc468abdf7cb9dd9c9ad75, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e7a9f197b9dc468abdf7cb9dd9c9ad75
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:868)
+	at firstestngpackage.SecondTestNGFile.webDriver(SecondTestNGFile.java:164)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.FirstTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="webDriver(firefox, 38, OSX 10.8)">
+                  </a> <!-- webDriver(firefox, 38, OSX 10.8) -->
+                  <span class="method-name">webDriver</span>
+                  <span class="parameters">(firefox, 38, OSX 10.8)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;title&gt;Notification: Gateway Timeout&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!--
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+p {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    top: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+td {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    top: 0px;
+}
+.code {
+    font-family: courier;
+    font-size: 12px;
+    top: 0px;
+}
+h1 {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;h1&gt;This Page Cannot Be Displayed&lt;/h1&gt;
+&lt;hr&gt;
+
+&lt;p&gt;
+The system cannot communicate with the external server (&amp;nbsp;ondemand.saucelabs.com&amp;nbsp;).
+The Internet server may be busy, may be permanently down, or may be
+unreachable because of network problems.
+&lt;/p&gt;
+
+&lt;p&gt;
+Please check the spelling of the Internet address entered.
+If it is correct, try this request later.
+&lt;/p&gt;
+
+
+
+&lt;p&gt;
+If you have questions, or feel this is an error, please contact
+your organization&apos;s network administrator 
+and provide the codes shown below.
+&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;table&gt;
+  &lt;tr valign=&quot;top&quot;&gt;
+    &lt;td valign=&quot;top&quot; width=&quot;10%&quot;&gt;Notification&amp;nbsp;codes:&amp;nbsp;&lt;/td&gt;
+    &lt;td valign=&quot;top&quot; class=&quot;code&quot; width=&quot;90%&quot;&gt;(1, GATEWAY_TIMEOUT, ondemand.saucelabs.com)&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+Command duration or timeout: 420.56 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:16:47&apos;
+System info: host: &apos;RSALECHA-M-6054&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=38.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=11dd8cec5f724baf94de993eefb935d0, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 11dd8cec5f724baf94de993eefb935d0
+*** Element info: {Using=xpath, value=//div[@class = &apos;load-more&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at firstestngpackage.FirstTestNGFile.webDriver(FirstTestNGFile.java:125)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webDriver(firefox, 38, LINUX)">
+                  </a> <!-- webDriver(firefox, 38, LINUX) -->
+                  <span class="method-name">webDriver</span>
+                  <span class="parameters">(firefox, 38, LINUX)</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at firstestngpackage.FirstTestNGFile.webDriver(FirstTestNGFile.java:103)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firstestngpackage.SecondTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="webDriver(firefox, 38, LINUX)">
+                  </a> <!-- webDriver(firefox, 38, LINUX) -->
+                  <span class="method-name">webDriver</span>
+                  <span class="parameters">(firefox, 38, LINUX)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+        </div> <!-- panel Parallel_test_runs -->
+        <div panel-name="test-xml-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rsalecha/Documents/workspace/TestNGSelSauce/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My Test Suite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./testFiles.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rsalecha/Documents/workspace/TestNGSelSauce/testFiles.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Parallel test runs&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;T_01&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.FirstTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_01 --&gt;
+  &lt;test name=&quot;T_02&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.SecondTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_02 --&gt;
+&lt;/suite&gt; &lt;!-- Parallel test runs --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">T_01 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_02 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Test_Suite');
+function tableData_My_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_Test_Suite']= { tableData: data, tableDiv: 'times-div-My_Test_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-My_Test_Suite">
+              </div> <!-- times-div-My_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel_test_runs');
+function tableData_Parallel_test_runs() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'webDriver')
+data.setCell(0, 2, 'firstestngpackage.SecondTestNGFile')
+data.setCell(0, 3, 3099314);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'webDriver')
+data.setCell(1, 2, 'firstestngpackage.FirstTestNGFile')
+data.setCell(1, 3, 1280432);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'webDriver')
+data.setCell(2, 2, 'firstestngpackage.SecondTestNGFile')
+data.setCell(2, 3, 7140);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'webDriver')
+data.setCell(3, 2, 'firstestngpackage.FirstTestNGFile')
+data.setCell(3, 3, 5736);
+window.suiteTableData['Parallel_test_runs']= { tableData: data, tableDiv: 'times-div-Parallel_test_runs'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-Parallel_test_runs">
+              </div> <!-- times-div-Parallel_test_runs -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webDriver(firefox, 38, OSX 10.8)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webDriver(firefox, 38, LINUX)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SecondTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webDriver(firefox, 38, OSX 10.8)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webDriver(firefox, 38, LINUX)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webDriver(firefox, 38, OSX 10.8)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webDriver(firefox, 38, LINUX)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SecondTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">webDriver(firefox, 38, OSX 10.8)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webDriver(firefox, 38, LINUX)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

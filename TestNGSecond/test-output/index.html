@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Parallel_test_runs">
+              <span class="suite-name border-failed">Parallel test runs</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Parallel_test_runs">
+                    <span>testFiles.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Parallel_test_runs">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Parallel_test_runs">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Parallel_test_runs">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Parallel_test_runs">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Parallel_test_runs">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Parallel_test_runs">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 6 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="hide-methods failed suite-Parallel_test_runs"> (hide)</a> <!-- hide-methods failed suite-Parallel_test_runs -->
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="show-methods failed suite-Parallel_test_runs"> (show)</a> <!-- show-methods failed suite-Parallel_test_runs -->
+                    </span>
+                    <div class="method-list-content failed suite-Parallel_test_runs">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.ThirdTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.FifthTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.EighthTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.SeventhTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.TenthTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.NinthTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Parallel_test_runs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="hide-methods passed suite-Parallel_test_runs"> (hide)</a> <!-- hide-methods passed suite-Parallel_test_runs -->
+                      <a href="#" panel-name="suite-Parallel_test_runs" class="show-methods passed suite-Parallel_test_runs"> (show)</a> <!-- show-methods passed suite-Parallel_test_runs -->
+                    </span>
+                    <div class="method-list-content passed suite-Parallel_test_runs">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.SecondTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.FirstTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.FourthTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_test_runs" title="firstestngpackage.SixthTestNGFile" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parallel_test_runs -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-My_Test_Suite" class="panel My_Test_Suite">
+        </div> <!-- panel My_Test_Suite -->
+        <div panel-name="suite-Parallel_test_runs" class="panel Parallel_test_runs">
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.ThirdTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">ParseException [code=100, error=Connection failed with Parse servers.  Log: Connection reset]
+	at org.parse4j.command.ParseResponse.getConnectionFailedException(ParseResponse.java:51)
+	at org.parse4j.command.ParseCommand.perform(ParseCommand.java:58)
+	at org.parse4j.ParseObject.save(ParseObject.java:459)
+	at firstestngpackage.ThirdTestNGFile.test(ThirdTestNGFile.java:100)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.FifthTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: value may not be null.
+	at org.parse4j.ParseObject.put(ParseObject.java:357)
+	at org.parse4j.ParseObject.put(ParseObject.java:339)
+	at firstestngpackage.FifthTestNGFile.test(FifthTestNGFile.java:99)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.NinthTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">ParseException [code=100, error=Connection failed with Parse servers.  Log: Permission denied]
+	at org.parse4j.command.ParseResponse.getConnectionFailedException(ParseResponse.java:51)
+	at org.parse4j.command.ParseCommand.perform(ParseCommand.java:58)
+	at org.parse4j.ParseObject.save(ParseObject.java:459)
+	at firstestngpackage.NinthTestNGFile.test(NinthTestNGFile.java:100)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.SeventhTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">ParseException [code=100, error=Connection failed with Parse servers.  Log: Permission denied]
+	at org.parse4j.command.ParseResponse.getConnectionFailedException(ParseResponse.java:51)
+	at org.parse4j.command.ParseCommand.perform(ParseCommand.java:58)
+	at org.parse4j.ParseObject.save(ParseObject.java:459)
+	at firstestngpackage.SeventhTestNGFile.test(SeventhTestNGFile.java:100)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.EighthTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">ParseException [code=100, error=Connection failed with Parse servers.  Log: Connection reset]
+	at org.parse4j.command.ParseResponse.getConnectionFailedException(ParseResponse.java:51)
+	at org.parse4j.command.ParseCommand.perform(ParseCommand.java:58)
+	at org.parse4j.ParseObject.save(ParseObject.java:459)
+	at firstestngpackage.EighthTestNGFile.test(EighthTestNGFile.java:100)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firstestngpackage.TenthTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">ParseException [code=100, error=Connection failed with Parse servers.  Log: Permission denied]
+	at org.parse4j.command.ParseResponse.getConnectionFailedException(ParseResponse.java:51)
+	at org.parse4j.command.ParseCommand.perform(ParseCommand.java:58)
+	at org.parse4j.ParseObject.save(ParseObject.java:459)
+	at firstestngpackage.TenthTestNGFile.test(TenthTestNGFile.java:100)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-failed -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firstestngpackage.FirstTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firstestngpackage.SecondTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firstestngpackage.SixthTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+          <div class="suite-Parallel_test_runs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firstestngpackage.FourthTestNGFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_test_runs-class-passed -->
+        </div> <!-- panel Parallel_test_runs -->
+        <div panel-name="test-xml-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rsalecha/Documents/workspace/TestNGFirst/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My Test Suite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./testFiles.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rsalecha/Documents/workspace/TestNGFirst/testFiles.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Parallel test runs&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;T_01&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.FirstTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_01 --&gt;
+  &lt;test name=&quot;T_02&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.SecondTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_02 --&gt;
+  &lt;test name=&quot;T_03&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.ThirdTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_03 --&gt;
+  &lt;test name=&quot;T_04&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.FourthTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_04 --&gt;
+  &lt;test name=&quot;T_05&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.FifthTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_05 --&gt;
+  &lt;test name=&quot;T_06&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.SixthTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_06 --&gt;
+  &lt;test name=&quot;T_07&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.SeventhTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_07 --&gt;
+  &lt;test name=&quot;T_08&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.EighthTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_08 --&gt;
+  &lt;test name=&quot;T_09&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.NinthTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_09 --&gt;
+  &lt;test name=&quot;T_10&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firstestngpackage.TenthTestNGFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- T_10 --&gt;
+&lt;/suite&gt; &lt;!-- Parallel test runs --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">T_01 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_02 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_03 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_04 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_05 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_06 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_07 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_08 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_09 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">T_10 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Test_Suite');
+function tableData_My_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_Test_Suite']= { tableData: data, tableDiv: 'times-div-My_Test_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-My_Test_Suite">
+              </div> <!-- times-div-My_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel_test_runs');
+function tableData_Parallel_test_runs() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'firstestngpackage.SeventhTestNGFile')
+data.setCell(0, 3, 5070747);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'firstestngpackage.NinthTestNGFile')
+data.setCell(1, 3, 3898549);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'firstestngpackage.TenthTestNGFile')
+data.setCell(2, 3, 3369921);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'firstestngpackage.FourthTestNGFile')
+data.setCell(3, 3, 2727831);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'firstestngpackage.FirstTestNGFile')
+data.setCell(4, 3, 2669076);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'firstestngpackage.SixthTestNGFile')
+data.setCell(5, 3, 2254805);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'firstestngpackage.SecondTestNGFile')
+data.setCell(6, 3, 1400466);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'firstestngpackage.FifthTestNGFile')
+data.setCell(7, 3, 968147);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'firstestngpackage.ThirdTestNGFile')
+data.setCell(8, 3, 909294);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'firstestngpackage.EighthTestNGFile')
+data.setCell(9, 3, 739912);
+window.suiteTableData['Parallel_test_runs']= { tableData: data, tableDiv: 'times-div-Parallel_test_runs'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 hours</span>
+              <div id="times-div-Parallel_test_runs">
+              </div> <!-- times-div-Parallel_test_runs -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel test runs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FifthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.ThirdTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SecondTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FourthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SixthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">909365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SeventhTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">968251 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.EighthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">1400523 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.NinthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">2140501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.TenthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">2669129 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel_test_runs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FifthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.ThirdTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FirstTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.FourthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SecondTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SixthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">909365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.SeventhTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">968251 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.EighthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">1400523 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.NinthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">2140501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firstestngpackage.TenthTestNGFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test</span>
+                <span class="method-start">2669129 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test runs]" parallel="tests">
+  <test name="T_03(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.ThirdTestNGFile">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- firstestngpackage.ThirdTestNGFile -->
+    </classes>
+  </test> <!-- T_03(failed) -->
+  <test name="T_05(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.FifthTestNGFile">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- firstestngpackage.FifthTestNGFile -->
+    </classes>
+  </test> <!-- T_05(failed) -->
+  <test name="T_08(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.EighthTestNGFile">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- firstestngpackage.EighthTestNGFile -->
+    </classes>
+  </test> <!-- T_08(failed) -->
+  <test name="T_07(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.SeventhTestNGFile">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- firstestngpackage.SeventhTestNGFile -->
+    </classes>
+  </test> <!-- T_07(failed) -->
+  <test name="T_10(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.TenthTestNGFile">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- firstestngpackage.TenthTestNGFile -->
+    </classes>
+  </test> <!-- T_10(failed) -->
+  <test name="T_09(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.NinthTestNGFile">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- firstestngpackage.NinthTestNGFile -->
+    </classes>
+  </test> <!-- T_09(failed) -->
+</suite> <!-- Failed suite [Parallel test runs] -->

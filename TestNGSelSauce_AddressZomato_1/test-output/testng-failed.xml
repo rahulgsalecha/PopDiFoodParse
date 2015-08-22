@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test runs]" parallel="tests">
+  <test name="T_01(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.Test2">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test2 -->
+      <class name="firstestngpackage.Test3">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test3 -->
+      <class name="firstestngpackage.Test1">
+        <methods>
+          <include name="setUp"/>
+          <include name="webDriver"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test1 -->
+      <class name="firstestngpackage.Test5">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test5 -->
+      <class name="firstestngpackage.Test6">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test6 -->
+      <class name="firstestngpackage.Test4">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test4 -->
+    </classes>
+  </test> <!-- T_01(failed) -->
+  <test name="T_02(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.Test2">
+        <methods>
+          <include name="setUp"/>
+          <include name="webDriver"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test2 -->
+      <class name="firstestngpackage.Test3">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test3 -->
+      <class name="firstestngpackage.Test1">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test1 -->
+      <class name="firstestngpackage.Test5">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test5 -->
+      <class name="firstestngpackage.Test6">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test6 -->
+      <class name="firstestngpackage.Test4">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test4 -->
+    </classes>
+  </test> <!-- T_02(failed) -->
+  <test name="T_03(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="webDriver"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test3 -->
+      <class name="firstestngpackage.Test2">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test2 -->
+      <class name="firstestngpackage.Test1">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test1 -->
+      <class name="firstestngpackage.Test5">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test5 -->
+      <class name="firstestngpackage.Test6">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test6 -->
+      <class name="firstestngpackage.Test4">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test4 -->
+    </classes>
+  </test> <!-- T_03(failed) -->
+  <test name="T_04(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.Test2">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test2 -->
+      <class name="firstestngpackage.Test3">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test3 -->
+      <class name="firstestngpackage.Test1">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test1 -->
+      <class name="firstestngpackage.Test5">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test5 -->
+      <class name="firstestngpackage.Test6">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test6 -->
+      <class name="firstestngpackage.Test4">
+        <methods>
+          <include name="setUp"/>
+          <include name="webDriver"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test4 -->
+    </classes>
+  </test> <!-- T_04(failed) -->
+  <test name="T_05(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.Test2">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test2 -->
+      <class name="firstestngpackage.Test3">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test3 -->
+      <class name="firstestngpackage.Test5">
+        <methods>
+          <include name="webDriver"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test5 -->
+      <class name="firstestngpackage.Test1">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test1 -->
+      <class name="firstestngpackage.Test6">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test6 -->
+      <class name="firstestngpackage.Test4">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test4 -->
+    </classes>
+  </test> <!-- T_05(failed) -->
+  <test name="T_06(failed)" parallel="tests">
+    <classes>
+      <class name="firstestngpackage.Test2">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test2 -->
+      <class name="firstestngpackage.Test3">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test3 -->
+      <class name="firstestngpackage.Test6">
+        <methods>
+          <include name="setUp"/>
+          <include name="webDriver"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test6 -->
+      <class name="firstestngpackage.Test1">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test1 -->
+      <class name="firstestngpackage.Test5">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test5 -->
+      <class name="firstestngpackage.Test4">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firstestngpackage.Test4 -->
+    </classes>
+  </test> <!-- T_06(failed) -->
+</suite> <!-- Failed suite [Parallel test runs] -->

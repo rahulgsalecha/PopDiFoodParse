@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestBase.java&apos; to &apos;TestNGSelSauce_AddressZomato_1/src/firstestngpackage&apos;&#x0A;- Original project: &apos;TestNG&apos;&#x0A;- Destination element: &apos;TestNGSelSauce_AddressZomato_1/src/firstestngpackage&apos;&#x0A;- Original element: &apos;testNG.Parallel.TestBase.java&apos;" description="Copy compilation unit" destination="=TestNGSelSauce_AddressZomato_1/src&lt;firstestngpackage" element1="/src&lt;testNG.Parallel{TestBase.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1439789851035" units="1" version="1.0"/>
+</session>

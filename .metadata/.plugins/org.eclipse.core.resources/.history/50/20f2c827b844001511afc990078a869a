@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test runs" parallel="tests" thread-count="5">
+ 
+<test name="T_01">
+    <classes>
+        <class name="firstestngpackage.FirstTestNGFile" ></class>
+    </classes>
+</test>
+ 
+<test name="T_02">
+    <classes>
+        <class name="firstestngpackage.SecondTestNGFile" ></class>
+    </classes>
+</test>
+
+<test name="T_03">
+    <classes>
+        <class name="firstestngpackage.ThirdTestNGFile" ></class>
+    </classes>
+</test>
+ 
+<test name="T_04">
+    <classes>
+        <class name="firstestngpackage.FourthTestNGFile" ></class>
+    </classes>
+</test>
+
+<test name="T_05">
+    <classes>
+        <class name="firstestngpackage.FifthTestNGFile" ></class>
+    </classes>
+</test>
+ 
+<test name="T_06">
+    <classes>
+        <class name="firstestngpackage.SixthTestNGFile" ></class>
+    </classes>
+</test>
+
+<test name="T_07">
+    <classes>
+        <class name="firstestngpackage.SeventhTestNGFile" ></class>
+    </classes>
+</test>
+ 
+<test name="T_08">
+    <classes>
+        <class name="firstestngpackage.EighthTestNGFile" ></class>
+    </classes>
+</test>
+
+<test name="T_09">
+    <classes>
+        <class name="firstestngpackage.NinthTestNGFile" ></class>
+    </classes>
+</test>
+ 
+<test name="T_10">
+    <classes>
+        <class name="firstestngpackage.TenthTestNGFile" ></class>
+    </classes>
+</test>
+</suite>
